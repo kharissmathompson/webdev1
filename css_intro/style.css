@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-family: Arial;
+    background: green;
+}
+
+p {
+    font-size: 30px;
+    background: rosybrown;
+    width: 40%;
+    height: 80%;
+}
+
+h4 {
+    color: black;
+    font-size: 80px;
+    background: yellowgreen;
+    width: 150px;
+    height: 200px;
+    padding: 60px;
+    border: 20px solid;
+    margin: 30px;
+}
