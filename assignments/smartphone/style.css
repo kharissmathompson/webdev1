@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to top right, lightblue, yellow);
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    
+}
+
+.phone {
+    width: 250px;
+    height: 450px;
+    margin: 0 auto;
+    padding: .5em;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+
+.row {
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    padding: .5em;
+}
+
+.app {
+    display: inline-block;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 11px;
+    object-fit: contain;
+    
+}
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 4px gray;
+    background-color: peachpuff;
+    border: 5px solid #f08080;
+    border-radius: 20px;
+    padding: 1em;
+    font-family: 'Press Start 2P';
+    color: lightcoral;
+    object-position: 50%;
+}
+
+.home:active {
+    box-shadow: 1px 2px gray;
+    transform: translate(4px, 4px);
+    
+}

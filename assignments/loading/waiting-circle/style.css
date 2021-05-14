@@ -1,0 +1,112 @@
+body {
+    background: lightblue;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    font-weight: bold;
+    color: lightcoral;
+
+}
+
+.baby-bt21 {
+    display: block;
+    width: 25%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: 50%;
+    padding: 15px;
+    position: relative;
+    animation-name: floating;
+    animation-duration: 3.25s;
+    animation-iteration-count: infinite;
+}
+
+.shadow {
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: 50%;
+    background: gray;
+    border-radius: 50%;
+    opacity: 25%;
+    animation-name: shadow;
+    animation-duration: 3.25s;
+    animation-iteration-count: infinite;
+}
+
+.loading {
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    object-position: 50%;
+    animation-name: blinking;
+    animation-duration: .75s;
+    animation-iteration-count: infinite;
+}
+
+.home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 4px gray;
+    background-color: peachpuff;
+    border: 5px solid #f08080;
+    border-radius: 20px;
+    padding: 1em;
+    font-family: 'Press Start 2P';
+    color: lightcoral;
+    object-position: 50%;
+}
+
+.home:active {
+    box-shadow: 1px 2px gray;
+    transform: translate(4px, 4px);
+    
+}
+
+@keyframes floating {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 65px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes shadow {
+    0% {
+        width: 150px;
+        opacity: 15%;
+    }
+    50% {
+        width: 250px;
+        opacity: 25%;
+    }
+    100% {
+        width: 150px;
+        opacity: 15%;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
